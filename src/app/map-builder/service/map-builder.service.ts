@@ -32,7 +32,9 @@ export class MapBuilderService {
       view: new View({
         center: [-6655.5402445057125, 6709968.258934638],
         zoom: 13
-      })
+      }),
+      // }),
+      interactions: defaults({dragPan: true, mouseWheelZoom: true})
     });
 
     // this.bingMapService.getBingLayers()[2].setVisible();

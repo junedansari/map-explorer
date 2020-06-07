@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {MapBuilderService} from '../service/map-builder.service';
+import 'ol/ol.css';
 @Component({
   selector: 'ja-map-builder',
   templateUrl: './map-builder.component.html',
